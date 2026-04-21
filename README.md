@@ -274,3 +274,285 @@ Le code source complet (backend Django, logique d’authentification, tokens, s�
 
 Contact :  
 https://www.linkedin.com/in/simohamedmnari/
+
+
+# Secure Access Platform — Public Version  
+### Professional overview of a modern authentication system (limited edition)
+
+This **public version** showcases the general architecture, concept, and part of the frontend code of the **Secure Access Platform**, a modern authentication and access‑management system designed for professional environments.
+
+It demonstrates:
+
+- UI & design  
+- frontend structure  
+- user experience  
+- React/Vite architecture  
+- navigation logic  
+
+**The full version (backend + security + RBAC + tokens) is not included.**
+
+---
+
+# Purpose of this public version
+
+The goal is to provide a **professional overview** while protecting:
+
+- business logic  
+- security mechanisms  
+- cryptographic tokens  
+- Axios interceptors  
+- roles & permissions  
+- full backend architecture  
+
+This version is **intentionally limited** to avoid exposing sensitive components.
+
+---
+
+# Live Demo (Frontend Only)
+
+https://secure-access-platform.vercel.app/
+
+**Login is disabled** because the secure backend is not included.  
+The full backend is available **on professional request only**.
+
+---
+
+# What does this application correspond to?
+
+The Secure Access Platform uses the **same authentication architecture** as major modern platforms:
+
+- **Google**
+- **Slack**
+- **Stripe**
+- **GitHub**
+- **Notion**
+- **Intercom**
+- **Airtable**
+- **Supabase Auth**
+- **Auth0**
+
+All these companies use:
+
+- **Short‑lived Access Token**  
+- **Long‑lived Refresh Token**  
+- **Automatic rotation**  
+- **Blacklist of old tokens**  
+- **HttpOnly cookies**  
+- **RBAC (Role‑Based Access Control)**  
+
+**This platform implements the exact same professional model.**
+
+---
+
+# Why is this system secure?
+
+It relies on **two levels of tokens**, each with a specific purpose:
+
+## 1. Short‑lived Access Token  
+- Lifetime: seconds/minutes  
+- Used for each API request  
+- If stolen → becomes useless quickly  
+- Cannot extend a session  
+
+**A temporary badge.**
+
+## 2. Long‑lived Refresh Token (protected)  
+- Stored in **HttpOnly cookie**  
+- Lifetime: days/weeks  
+- Used to obtain new access tokens  
+- Never exposed to JavaScript  
+- Protected against XSS  
+- Backend‑only  
+
+**A master key stored in a vault.**
+
+---
+
+# Automatic Security Cycle
+
+1. Access token expires  
+2. System detects 401  
+3. Generates a new access token  
+4. Generates a new encrypted refresh token  
+5. Blacklists the old refresh token  
+6. User stays connected seamlessly  
+
+**Even in case of attack, the old token is useless.**
+
+---
+
+# Why is this ideal for companies?
+
+### ✔ Enterprise‑grade security  
+- HttpOnly cookies  
+- Token rotation  
+- Automatic blacklist  
+- XSS protection  
+- CSRF protection  
+- Token replay protection  
+
+### ✔ Easy integration  
+This module can be integrated into any application:
+
+- SaaS  
+- Internal dashboards  
+- CRM  
+- ERP  
+- Mobile apps  
+- Enterprise platforms  
+- Existing REST APIs  
+- **Hospital systems (EHR / EMR)**  
+- **Medical applications (doctor/nurse access)**  
+- **HR / payroll / planning platforms**  
+- **Insurance / banking systems**  
+- **Real‑estate / property management**  
+- **Government / municipality systems**  
+- **School / university management software**  
+- **Logistics / transport platforms**  
+- **Cybersecurity & audit tools**  
+
+**A universal module compatible with all sectors.**
+
+---
+
+# Hospital Integration (real examples)
+
+This platform can secure:
+
+- doctor access to patient records  
+- nurse / intern / secretary accounts  
+- administrative access (HR, payroll, planning)  
+- radiology / laboratory systems  
+- internal APIs (HL7, FHIR)  
+- patient portals  
+
+Why it fits hospitals:
+
+- reinforced security  
+- short sessions reduce risk  
+- secure refresh prevents disconnections  
+- RBAC for medical roles  
+- audit & traceability  
+- XSS/CSRF protection  
+
+**This is the same model used in modern hospital systems.**
+
+---
+
+# Professional Offers
+
+## Offer 1 — Full Source Code (Professional Version)  
+**Fixed price: 2 500 €**
+
+You receive:
+
+- complete architecture  
+- JWT authentication (access + refresh)  
+- HttpOnly cookies  
+- rotation + blacklist  
+- RBAC  
+- secure API  
+- technical documentation  
+
+The source code is a **standardized product**, delivered as‑is.
+
+---
+
+## Offer 2 — Integration into Your Application  
+**Fixed price: 7 500 €**
+
+Custom integration service:
+
+- backend integration  
+- frontend integration  
+- user migration  
+- role configuration  
+- API security  
+- security audit  
+- tests + validation  
+- internal documentation  
+
+Integration is a **personalized service**, adapted to your environment.
+
+---
+
+## Why two fixed prices?
+
+Because:
+
+- **the source code is a product**  
+- **integration is a custom engineering service**  
+- every company has a different architecture  
+- needs vary by sector (SaaS, hospital, banking, insurance, real estate, etc.)
+
+Both services are offered at **clear and transparent fixed prices**.
+
+---
+
+# Full Version (not published)
+
+Includes:
+
+### Backend (Django REST Framework)
+- JWT authentication (access + refresh)  
+- HttpOnly refresh token  
+- rotation + blacklist  
+- advanced permissions  
+- RBAC  
+- full REST API  
+- logs, audit, traceability  
+
+### Frontend (React)
+- advanced Axios interceptors  
+- automatic token handling  
+- retry queue  
+- protected routes  
+- full dashboard  
+
+Available on request:  
+https://www.linkedin.com/in/simohamedmnari/
+
+---
+
+# Installation (Public Version)
+
+This public version contains only the **minimal frontend**.
+
+```bash
+npm install
+npm run dev
+```
+
+Open:  
+http://localhost:5173
+
+Login button is disabled.
+
+---
+
+# Full Source Access
+
+The complete source code (backend + security + tokens + API + database) is available **on professional request only**.
+
+Contact:  
+https://www.linkedin.com/in/simohamedmnari/
+
+---
+
+---
+
+# SEO & International Keywords (for visibility and enterprise reach)
+
+**Keywords:**  
+authentication system, secure login, JWT authentication, refresh token rotation, HttpOnly cookies, RBAC, enterprise security, IAM system, secure API, Django authentication, React authentication, token-based authentication, OAuth alternative, hospital authentication, healthcare IAM, secure access platform, enterprise login module, access management system, cybersecurity, SaaS authentication, backend security, frontend security, secure session management.
+
+**Locations (for international referencing):**  
+United States, Canada, United Kingdom, Germany, Switzerland, Netherlands, Sweden, Norway, Denmark, Singapore, Australia, United Arab Emirates, Dubai, Abu Dhabi.
+
+**Major tech cities:**  
+San Francisco, New York, Seattle, Toronto, Vancouver, London, Berlin, Munich, Zurich, Geneva, Amsterdam, Stockholm, Copenhagen, Singapore, Sydney, Melbourne, Dubai.
+
+**France (national coverage):**  
+Paris, Lyon, Marseille, Toulouse, Montpellier, Lille, Nantes, Bordeaux, Nice, Rennes, Strasbourg.
+
+
