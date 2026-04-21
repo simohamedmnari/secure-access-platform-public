@@ -234,7 +234,7 @@ La version complète inclut :
 - Logs, audit, traçabilité  
 - Séparation stricte des privilèges  
 
-### ⚛️ Frontend avancé (React)
+### Frontend avancé (React)
 - Intercepteurs Axios intelligents  
 - Gestion automatique des tokens  
 - Relance automatique des requêtes  
