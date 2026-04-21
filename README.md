@@ -115,7 +115,7 @@ Le système repose sur **deux niveaux de tokens**, chacun ayant un rôle précis
 
 Parce qu’il offre :
 
-### ✔ Sécurité niveau entreprise  
+### Sécurité niveau entreprise  
 - Cookies HttpOnly  
 - Rotation des tokens  
 - Blacklist automatique  
@@ -123,7 +123,7 @@ Parce qu’il offre :
 - Protection CSRF  
 - Protection contre le token replay  
 
-### ✔ Intégration simple  
+### Intégration simple  
 Ce module peut être intégré dans n’importe quelle application :
 
 - SaaS  
@@ -383,7 +383,7 @@ It relies on **two levels of tokens**, each with a specific purpose:
 
 # Why is this ideal for companies?
 
-### ✔ Enterprise‑grade security  
+### Enterprise‑grade security  
 - HttpOnly cookies  
 - Token rotation  
 - Automatic blacklist  
@@ -391,7 +391,7 @@ It relies on **two levels of tokens**, each with a specific purpose:
 - CSRF protection  
 - Token replay protection  
 
-### ✔ Easy integration  
+### Easy integration  
 This module can be integrated into any application:
 
 - SaaS  
